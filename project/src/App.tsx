@@ -3,7 +3,7 @@ import { Heart, Phone, Facebook, Instagram, MessageCircle, MapPin, Star } from '
 import AlfaPet from '../img/marcas/AlfaPet.png'
 import BichinhoChique from '../img/marcas/BichinhoChic.png'
 import Boehringer from '../img/marcas/Boehringer.png'
-import Exopets from '../img/marcas/Exopets.png'
+import exopets from '../img/marcas/Exopets.png'
 import Inata from '../img/marcas/Inataa.png'
 import bioFresh from '../img/marcas/LogoBiofresh.png'
 import bravecto from '../img/marcas/LogoBravecto.png'
@@ -188,7 +188,7 @@ function App() {
         </div>
         <div className="bg-white rounded-xl shadow-md p-4 flex flex-col items-center w-full max-w-[120px] transition-transform hover:scale-105">
           <img
-            src={Exopets}
+            src={exopets}
             alt="Exopets"
             className="w-16 h-16 object-contain mb-2"
           />
